@@ -1,0 +1,85 @@
+/* Colour Codes
+#A4D0FF - Light Blue
+#83A6CC - Medium Blue
+#2C547F - Dark Blue 
+*/
+
+body {
+    background-color: #83A6CC;
+}
+
+.wrapper {
+    background-color: #83A6CC;
+    width: 30rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.masthead {
+    background-image: url("../image/shopping-cart.png");
+    background-size: cover;
+    height: 12rem;
+}
+
+#tag-line {
+    color: #fff;
+    padding-top: 4rem;
+    padding-left: 6rem;
+    font-size: 3rem;
+    text-shadow: 2px 0 0 #2C547F, -2px 0 0 #2C547F, 0 2px 0 #2C547F, 0 -2px 0 #2C547F, 1px 1px #2C547F, -1px -1px 0 #2C547F, 1px -1px 0 #2C547F, -1px 1px 0 #2C547F;
+    font-family: 'Francois One', sans-serif;
+}
+
+hr {
+    margin-top: 2rem;
+    border-top: none;
+}
+
+button {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 4rem;
+    background-color: #A4D0FF;
+    border: none;
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'Francois One', sans-serif;
+}
+
+#groceries {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    width: 29rem;
+    margin-top: 0.25rem;
+    height: 2rem;
+    background-color: #2C547F;
+    border-bottom: 2px solid #A4D0FF;
+    color: #fff;
+    font-family: 'News Cycle', sans-serif;
+    padding-left: 1rem;
+    
+}
+
+.company {
+    width: 17rem;
+    margin-left: 6rem;
+    text-align: center;
+    color: #2C547F;
+    font-family: 'News Cycle', sans-serif;
+}
+
+
+.socialmedia {
+    width: 15rem;
+    margin-left: 7rem;
+}
+
+.social {
+    color: #fff; 
+    padding-left: 2rem;
+}
